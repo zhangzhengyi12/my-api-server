@@ -3,13 +3,9 @@ var apiRoute = express.Router()
 var axios = require('axios')
 
 apiRoute.get('/', (req, res) => {
-  var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+  var url = 'http://api.qingyunke.com/api.php'
   axios
     .get(url, {
-      headers: {
-        referer: 'https://c.y.qq.com',
-        host: 'c.y.qq.com'
-      },
       params: req.query
     })
     .then(response => {

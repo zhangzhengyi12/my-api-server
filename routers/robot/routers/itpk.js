@@ -3,16 +3,13 @@ var apiRoute = express.Router()
 var axios = require('axios')
 
 apiRoute.get('/', (req, res) => {
-  var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+  var url = 'http://i.itpk.cn/api.php'
   axios
     .get(url, {
-      headers: {
-        referer: 'https://c.y.qq.com',
-        host: 'c.y.qq.com'
-      },
       params: req.query
     })
     .then(response => {
+      res.set('Access-Control-Allow-Origin', '*')
       res.json(response.data)
     })
     .catch(e => {
