@@ -1,6 +1,6 @@
 {
   "movies": {
-    "time": 1518369756256,
+    "time": 1518371691023,
     "list": [
       {
         "title": "狂兽",
@@ -53,6 +53,16 @@
         "imgSrc": "https://tu.66vod.net/2017/7973.jpg"
       },
       {
+        "title": "相对宇宙[第一季04]",
+        "link": "http://www.6vhao.tv/mj/2017-12-21/33193.html",
+        "imgSrc": "https://tu.66vod.net/2017/6977.jpg"
+      },
+      {
+        "title": "谈判官",
+        "link": "http://www.6vhao.tv/dlz/2018-02-10/33501.html",
+        "imgSrc": "https://tu.66vod.net/2017/7874.jpg"
+      },
+      {
         "title": "众口难调[第二季04]",
         "link": "http://www.6vhao.tv/mj/2018-01-20/33388.html",
         "imgSrc": "https://tu.66vod.net/2016/0532.jpg"
@@ -91,16 +101,6 @@
         "title": "超越[第二季05]",
         "link": "http://www.6vhao.tv/mj/2018-01-20/33387.html",
         "imgSrc": "https://tu.66vod.net/2016/2107.jpg"
-      },
-      {
-        "title": "逍遥法外[第四季12]",
-        "link": "http://www.6vhao.tv/mj/2017-09-29/32723.html",
-        "imgSrc": "http://tu.pp63.org/2017/4225.jpg"
-      },
-      {
-        "title": "零异频道.屠杀区[第三季01]",
-        "link": "http://www.6vhao.tv/mj/2018-02-10/33503.html",
-        "imgSrc": "https://tu.66vod.net/2017/7952.jpg"
       }
     ]
   }

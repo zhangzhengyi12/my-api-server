@@ -3,11 +3,10 @@ const path = require('path')
 
 const app = express()
 
-// 跨域设置
+// 跨域设置 注意内容类型，如果需要显示html内容，则手动增加匹配规则
 app.all('*', function(req, res, next) {
   if (req.path !== '/' && !req.path.includes('.')) {
     res.header('Access-Control-Allow-Credentials', true)
-    // 这里获取 origin 请求头 而不是用 *
     res.header('Access-Control-Allow-Origin', req.headers['origin'] || '*')
     res.header('Access-Control-Allow-Headers', 'X-Requested-With')
     res.header('Access-Control-Allow-Methods', 'PUT,POST,GET,DELETE,OPTIONS')
