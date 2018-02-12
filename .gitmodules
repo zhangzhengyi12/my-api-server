@@ -1,0 +1,3 @@
+   [submodule "NeteaseCloudMusicApi"]
+        path = ./router/NeteaseCloudMusicApi
+        url = https://github.com/zhangzhengyi12/NeteaseCloudMusicApi
